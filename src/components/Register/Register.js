@@ -32,7 +32,7 @@ onSubmitSignIn = () =>{
   //validation for routing
   .then(response =>response.json())
   .then(user =>{
-    if(user){//if we get the user back
+    if(user.id){//if we get the user back
       this.props.loadUser(user)
       this.props.onRouteChange('home');
     }
