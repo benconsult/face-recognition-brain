@@ -1,11 +1,7 @@
 # face-recognition-brain
 
-front-end using react
+front-end using react.js consisting of login, signin, and homepage.
 
-To run:
-
-1. Run npm install
-
-2. Run npm start
+It accepts image url and detects the face region of the image.
 
 
